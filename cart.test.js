@@ -23,3 +23,7 @@ test('99 + 5', () => {
 test('täpselt piiril, tasuta saatmine', () => {
   expect(calculateTotal([{ price: 100, qty: 1 }])).toBe(100);
 });
+
+test('annab vea, kui items ei ole massiiv', () => {
+  expect(() => calculateTotal('abc')).toThrow();
+});
