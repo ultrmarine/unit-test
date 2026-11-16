@@ -26,3 +26,16 @@
 ![Png7](screenshots/png7.png)
 
 ![Png8](screenshots/png8.png)
+
+
+# TDD #
+
+TDD – seda on vaja testimiseks, et teada saada, millist tulemust annab kood, kui kontrollitav funktsioon puudub.
+
+Red etapp.
+
+![Png9](screenshots/png9.png)
+
+Green etapp.
+
+![Png10](screenshots/png10.png)
