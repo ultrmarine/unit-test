@@ -9,3 +9,14 @@ Funktsiooni parandus:
 ![Png2](screenshots/png2.png)
 
 ![Png3](screenshots/png3.png)
+
+
+# Cart js
+
+![Png4](screenshots/png4.png)
+
+Funktsiooni parandus:
+
+![Png5](screenshots/png5.png)
+
+![Png4](screenshots/png6.png)
