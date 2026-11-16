@@ -12,7 +12,7 @@ function calculateTotal(items, discountCode) {
   }, 0);
 
   // Tahtlik viga: saatmiskulu tingimus tuleb testide abil leida.
-  if (total < 100) {
+  if (total < 100 && discountCode != "FREESHIP") {
     total += 5;
   }
 
