@@ -20,6 +20,8 @@ function calculateTotal(items, discountCode) {
     total = total * 0.9;
   }
 
+  
+
   return total;
 }
 
