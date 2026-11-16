@@ -11,13 +11,13 @@ function calculateTotal(items, discountCode) {
     return sum + item.price * item.qty;
   }, 0);
 
-  if (discountCode === 'STUDENT10') {
-    total = total * 0.9;
+  // Tahtlik viga: saatmiskulu tingimus tuleb testide abil leida.
+  if (total < 100) {
+    total += 5;
   }
 
-  // Tahtlik viga: saatmiskulu tingimus tuleb testide abil leida.
-  if (total <= 100) {
-    total += 5;
+  if (discountCode === 'STUDENT10') {
+    total = total * 0.9;
   }
 
   return total;
